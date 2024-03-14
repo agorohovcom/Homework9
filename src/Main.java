@@ -21,7 +21,8 @@ public class Main {
         int minExpense = weekExpenses[0];
         int maxExpenses = weekExpenses[weekExpenses.length-1];
 
-        System.out.printf("Минимальная сумма трат за неделю составила %d рублей. Максимальная сумма трат за неделю составила %d рублей.\n\n", minExpense, maxExpenses);
+        System.out.printf("Минимальная сумма трат за неделю составила %d рублей. " +
+                "Максимальная сумма трат за неделю составила %d рублей.\n\n", minExpense, maxExpenses);
 
         // Задача 3
         int [] anotherWeekExpenses = new int[] {1, 22, 333, 4444, 55555};
